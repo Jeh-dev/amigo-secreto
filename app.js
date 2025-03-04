@@ -4,6 +4,7 @@ function adicionarAmigo() {
     let campoAdicionar = document.querySelector ('input').value;
     if (campoAdicionar && !amigos.includes (amigos)){
     amigos.push (campoAdicionar);
+    console.log (amigos)
     }  else {
        if (campoAdicionar == '') {
         alert ('Erro!! por favor adicione um nome para continuar');
