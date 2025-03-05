@@ -51,5 +51,3 @@ function sortearAmigo() {
 
     alert(resultado.join("\n"));
 }
-//parabens vc conseguio fera
-
